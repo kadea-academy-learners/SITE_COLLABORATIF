@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align:center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+}
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+    
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+section {
+    padding: 2rem;
+}
+.produit {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.produit h3 {
+    margin: 0 0 0.5rem;
+}
+.produit img {
+    width: 150px;  /* Ajustez la largeur selon vos besoins */
+    height: auto;  /* Maintient le rapport d'aspect */
+    border-radius: 5px;  /* Arrondit les coins de l'image */
+    margin-bottom: 1rem;  /* Ajoute un espace en dessous de l'image */
+}
+.produit img {
+    height: auto;  /* Maintient le rapport d'aspect */
+    object-fit: cover;  /* Ajuste l'image pour couvrir l'espace sans déformer */
+    border-radius: 10px;  /* Arrondit les coins de l'image */
+    margin-bottom: 1rem;  /* Ajoute un espace en dessous de l'image */
+}
+.images {
+    display: flex;  /* Utilise Flexbox pour disposer les images en ligne */
+    gap: 30px;  /* Espace entre les images */
+}
+
+.images img {
+    width: 200px;  /* Ajustez la largeur selon vos besoins */
+    height: auto;  /* Maintient le rapport d'aspect */
+    border-radius: 5px;  /* Arrondit les coins de l'image */
+}
+footer {
+    background-color: #0f120f;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
